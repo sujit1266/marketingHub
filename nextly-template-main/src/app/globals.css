@@ -11,3 +11,8 @@
   }
 }
 
+.swiper-wrapper.marquee-swiper {
+  transition-timing-function: linear !important;
+  align-items: center;
+}
+

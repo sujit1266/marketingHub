@@ -6,13 +6,15 @@ import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
+import TagScroll from "../components/TagscrollingSection";
+import Services from "@/components/services";
 
 import { benefitOne, benefitTwo } from "@/components/data";
 export default function Home() {
   return (
     <Container>
       <Hero />
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Site Benefits"
         title=" Testing Purpose with This Landing "
       >
@@ -20,10 +22,12 @@ export default function Home() {
         reiciendis quos natus accusantium soluta quidem, quam, vero optio alias
         aliquam autem ipsam quibusdam sunt accusamus quod? Esse culpa voluptates
         dolorem?
-      </SectionTitle>
+      </SectionTitle> */}
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
+      <TagScroll/>
+      <Services/>
 
       <SectionTitle
         preTitle="Watch a video"
