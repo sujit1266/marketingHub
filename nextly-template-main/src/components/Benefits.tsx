@@ -27,8 +27,8 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
           <div>
             <Image
               src={data.image}
-              width={521}
-              height={521}
+              width={921}
+              // height={521}
               alt="Benefits"
               className={"object-cover"}
               placeholder="blur"
@@ -54,6 +54,10 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
                 {data.desc2}
               </p>
             </div>
+
+            <div className="mt-6">
+            <a className="px-12 py-4 text-white bg-buttonColor hover:bg-buttonColorHover rounded-md" href="/">Learn More</a>
+              </div>
 
             {/* <div className="w-full mt-5">
               {data.bullets.map((item, index) => (

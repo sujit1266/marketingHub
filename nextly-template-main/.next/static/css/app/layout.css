@@ -636,6 +636,9 @@ video {
 .bottom-5 {
   bottom: 1.25rem;
 }
+.bottom-\[-40px\] {
+  bottom: -40px;
+}
 .bottom-\[100px\] {
   bottom: 100px;
 }
@@ -647,6 +650,9 @@ video {
 }
 .left-5 {
   left: 1.25rem;
+}
+.left-\[43\%\] {
+  left: 43%;
 }
 .right-0 {
   right: 0px;
@@ -729,6 +735,9 @@ video {
 .mt-1 {
   margin-top: 0.25rem;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -752,6 +761,9 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.mt-24 {
+  margin-top: 6rem;
 }
 .block {
   display: block;
@@ -804,6 +816,15 @@ video {
 .h-\[500px\] {
   height: 500px;
 }
+.h-\[670px\] {
+  height: 670px;
+}
+.h-\[70px\] {
+  height: 70px;
+}
+.h-\[750px\] {
+  height: 750px;
+}
 .h-\[max-content\] {
   height: max-content;
 }
@@ -812,6 +833,15 @@ video {
 }
 .h-screen {
   height: 100vh;
+}
+.h-\[790px\] {
+  height: 790px;
+}
+.h-\[0px\] {
+  height: 0px;
+}
+.h-\[830px\] {
+  height: 830px;
 }
 .min-h-\[250px\] {
   min-height: 250px;
@@ -851,6 +881,9 @@ video {
 }
 .w-\[70\%\] {
   width: 70%;
+}
+.w-\[70px\] {
+  width: 70px;
 }
 .w-full {
   width: 100%;
@@ -1028,6 +1061,14 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
+.bg-\[\#ff4b26\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 75 38 / var(--tw-bg-opacity));
+}
+.bg-\[\#ffffff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .bg-\[rgba\(255\2c 255\2c 255\2c 1\)\] {
   background-color: rgba(255,255,255,1);
 }
@@ -1084,6 +1125,15 @@ video {
 .to-indigo-700 {
   --tw-gradient-to: #4338ca var(--tw-gradient-to-position);
 }
+.bg-auto {
+  background-size: auto;
+}
+.bg-center {
+  background-position: center;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
 .fill-current {
   fill: currentColor;
 }
@@ -1092,6 +1142,12 @@ video {
 }
 .\!p-0 {
   padding: 0px !important;
+}
+.\!p-4 {
+  padding: 1rem !important;
+}
+.p-10 {
+  padding: 2.5rem;
 }
 .p-2 {
   padding: 0.5rem;
@@ -1175,6 +1231,9 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+.\!pb-10 {
+  padding-bottom: 2.5rem !important;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -1344,6 +1403,11 @@ video {
 }
 .opacity-75 {
   opacity: 0.75;
+}
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);

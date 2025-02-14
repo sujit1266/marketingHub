@@ -26,8 +26,8 @@ export default function Home() {
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-      <TagScroll/>
-      <Services/>
+      <TagScroll key={1}/>
+      <Services key={2}/>
 
       <SectionTitle
         preTitle="Watch a video"
