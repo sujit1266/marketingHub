@@ -8,6 +8,7 @@ interface BenefitsProps {
     imgPos?: "left" | "right";
     title: string;
     desc: string;
+    desc2: string;
     image: any;
     bullets: {
       title: string;
