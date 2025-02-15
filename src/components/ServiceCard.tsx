@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 
-export default function ServiceCard(props) {
+export default function ServiceCard(props: Readonly<BenefitsProps>) {
      return (
           <div className='bg-[#ffffff] p-10 h-[670px] rounded-lg shadow shadow-[rgba(254.25, 159.51527773296382, 137.73718066008)] relative'>
                <Image src={serImg} alt='service image'/>
