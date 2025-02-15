@@ -8,23 +8,23 @@ export const Hero = () => {
         Transforming Businesses with 360° Digital Marketing Solutions
       </h1>
       <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 mt-20">
-            <a
-              href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-              target="_blank"
-              rel="noopener"
-              className="px-8 py-4 text-lg font-medium text-white bg-buttonColor hover:bg-buttonColorHover rounded-md transition duration-300"
-            >
-              Download for Free
-            </a>
-            <a
-              href="https://github.com/web3templates/nextly-template/"
-              target="_blank"
-              rel="noopener"
-              className="flex items-center space-x-2 px-12 py-4 text-lg font-medium text-gray-300 bg-gray-800 hover:bg-gray-900 rounded-md transition duration-300"
-            >
-              <span> Contact Us</span>
-            </a>
-          </div>
+        <a
+          href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+          target="_blank"
+          rel="noopener"
+          className="px-8 py-4 text-lg font-medium text-white bg-buttonColor hover:bg-buttonColorHover rounded-md transition duration-300"
+        >
+          Download for Free
+        </a>
+        <a
+          href="https://github.com/web3templates/nextly-template/"
+          target="_blank"
+          rel="noopener"
+          className="flex items-center space-x-2 px-12 py-4 text-lg font-medium text-gray-300 bg-gray-800 hover:bg-gray-900 rounded-md transition duration-300"
+        >
+          <span> Contact Us</span>
+        </a>
+      </div>
       <div className="w-full h-screen relative flex items-center justify-center overflow-hidden mt-42">
         {/* Background Video */}
         <video
