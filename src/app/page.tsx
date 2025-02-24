@@ -7,9 +7,10 @@ import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 import TagScroll from "../components/TagscrollingSection";
+import Aboutus from "@/components/Aboutus";
  
 
-import { benefitOne, benefitTwo } from "@/components/data";
+import { benefitOne } from "@/components/data";
 import Services from "@/components/Services";
 export default function Home() {
   return (
@@ -24,9 +25,10 @@ export default function Home() {
         aliquam autem ipsam quibusdam sunt accusamus quod? Esse culpa voluptates
         dolorem?
       </SectionTitle> */}
+      {/* <Aboutus/> */}
 
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
       <TagScroll key={1}/>
       <Services  />
 

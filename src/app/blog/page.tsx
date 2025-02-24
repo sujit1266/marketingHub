@@ -1,9 +1,12 @@
-import React from 'react'
+import BlogListsComponent from "@/components/BlogLists";
+import React from "react";
 
-const page = () => {
+const BlogList = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div className="pt-20">
+      <BlogListsComponent />
+    </div>
+  );
+};     
 
-export default page
+export default BlogList;

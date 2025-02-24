@@ -7,14 +7,15 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/about-us.jpg";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/aboutus-bg-remove-img.png";
+// import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Welcome to MarketianHub",
+  // title1: "Welcome to",
+  // title2: "<span>m</span>arket<span>i</span>an<span>hub</span>",
   desc: "At marketianhub, we believe in delivering more than just marketing services. We craft stories, build connections, and create experiences that help your brand stand out in a competitive market. As a premier digital marketing agency in Kolkata, our team comprises experienced strategists, creative designers, data-driven analysts, and forward-thinking developers who work in synergy to deliver results that matter.",
   desc2: "Whether you're a local business looking to expand your reach or a global enterprise aiming to strengthen your digital footprint, our comprehensive solutions are tailored to meet your unique needs.",
-image: benefitOneImg,
+  image: benefitOneImg,
   bullets: [
     {
       title: "Understand your customers",
@@ -34,29 +35,29 @@ image: benefitOneImg,
   ],
 };
 
-const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  desc2: "",
-  image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
-    },
-  ],
-};
+// const benefitTwo = {
+//   title: "Offer more benefits here",
+//   desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+//   desc2: "",
+//   image: benefitTwoImg,
+//   bullets: [
+//     {
+//       title: "Mobile Responsive Template",
+//       desc: "Nextly is designed as a mobile first responsive template.",
+//       icon: <DevicePhoneMobileIcon />,
+//     },
+//     {
+//       title: "Powered by Next.js & TailwindCSS",
+//       desc: "This template is powered by latest technologies and tools.",
+//       icon: <AdjustmentsHorizontalIcon />,
+//     },
+//     {
+//       title: "Dark & Light Mode",
+//       desc: "Nextly comes with a zero-config light & dark mode. ",
+//       icon: <SunIcon />,
+//     },
+//   ],
+// };
 
 
-export { benefitOne, benefitTwo };
+export { benefitOne };

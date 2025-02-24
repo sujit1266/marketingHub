@@ -14,8 +14,8 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className={`w-full fixed z-[999] bg-[rgba(255,255,255,1)]`}>
-      <nav className="container relative flex flex-wrap items-center justify-between p-4 mx-auto lg:justify-between xl:px-1 z-[999] h-[max-content]">
+    <div className={`w-full fixed z-[999] bg-[rgba(255,255,255,1)] px-10`}>
+      <nav className="relative flex flex-wrap items-center justify-between p-4 lg:justify-between xl:px-1 z-[999] h-[max-content]">
         {/* Logo  */}
         <Link href="/">
           <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
@@ -33,7 +33,7 @@ export const Navbar = () => {
 
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
           <div className="hidden mr-3 lg:flex nav__item">
             <Link
               href="/contact"

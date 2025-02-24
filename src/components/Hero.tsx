@@ -34,11 +34,11 @@ export const Hero = () => {
           playsInline
           className="absolute top-[90px] md:top-[110px] left-0 w-full h-full object-cover"
         >
-          <source src="/hero-video.mp4" type="video/mp4" />
+          <source src="/final-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay for better readability */}
-        <div className="absolute top-[90px] md:top-[110px] left-0 h-[100%] w-[100%] inset-0 bg-black/50"></div>
+        <div className="absolute top-[90px] md:top-[110px] left-0 h-[100%] w-[100%] inset-0 bg-black/10"></div>
 
         {/* Centered Content */}
         <Container className="relative z-10 flex flex-col items-center text-white text-center px-6">

@@ -7,4 +7,10 @@
   body {
     @apply dark:bg-trueGray-900;
   }
+
+  /* @font-face {
+    font-family: 'Garamond Pro';
+    font-weight: 500;
+    src: url(/fonts/proxima-nova/500-medium.woff) format("woff");
+  } */
 }
