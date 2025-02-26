@@ -36,21 +36,26 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What services does marketianhub offer?",
+    answer: "We provide a full range of digital marketing services, including SEO, PPC advertising, Social Media Marketing, Content Marketing, Email Marketing, and Website Development. Our strategies are designed to enhance your online presence and drive growth.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How can marketianhub help my business grow?",
+    answer: "Our expert team creates data-driven marketing strategies to increase visibility, attract targeted traffic, and boost conversions. We optimize your online presence with SEO, paid ads, engaging content, and social media strategies to help your business succeed.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "How long does it take to see results from digital marketing?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "SEO takes 3–6 months to show significant improvements, while PPC and social media ads can generate immediate results. We continuously optimize campaigns to ensure long-term success and sustainable business growth.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Does marketianhub work with small businesses and startups?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes! We work with businesses of all sizes, from startups to large enterprises. Our flexible and budget-friendly digital marketing solutions are customized to meet your specific business needs and help you scale effectively.",
+  },
+  {
+    question: "How can I get started with marketianhub?",
+    answer:
+      "Simply reach out to us through our website for a free consultation. Our team will analyze your business needs and create a personalized digital marketing plan to help you achieve your goals efficiently. Let’s grow your brand together! ",
   },
 ];

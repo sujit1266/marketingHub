@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Container } from "@/components/Container";
+import ReachUsForm from "./ReachUsForm";
 
 interface VideoProps {
   videoId: string;
@@ -13,8 +14,8 @@ export function Video({ videoId }: Readonly<VideoProps>) {
 
   return (
     <Container>
-      <div className="relative w-full h-[500px] max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl bg-indigo-300 cursor-pointer bg-gradient-to-tr from-purple-400 to-indigo-700">
-        {!playVideo && (
+      <div className="relative w-full h-[700px] max-w-8xl mx-auto overflow-hidden lg:mb-20 rounded-2xl cursor-pointer">
+        {/* {!playVideo && (
           <button
             onClick={() => setPlayVideo(!playVideo)}
             className="absolute inset-auto w-16 h-16 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2"
@@ -41,7 +42,21 @@ export function Video({ videoId }: Readonly<VideoProps>) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             className="w-full h-full aspect-video"
           ></iframe>
-        )}
+        )} */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute left-0 w-full h-full object-cover"
+        >
+          <source src="/final-video2.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute top-0 right-24 bg-[linear-gradient(#a3438a,#ff263a)]">
+
+          <ReachUsForm />
+        </div>
+        <p className='absolute top-10 left-10 text-[#ffa550] w-[55%] text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis recusandae assumenda! Natus expedita quidem inventore sequi sapiente. Praesentium corrupti laboriosam eligendi facilis aspernatur nostrum, a cumque ad saepe quis. Aperiam autem, totam minus eligendi, porro officiis repellat quis ea quae hic reprehenderit obcaecati quibusdam necessitatibus atque debitis eius sapiente fuga eveniet quidem cupiditate laborum beatae molestias dolorum quas? Dolorum, laudantium nemo quos illo accusamus exercitationem animi saepe reprehenderit odio, nostrum ea. Iure error necessitatibus labore quia, dignissimos quam, ratione vel illum aliquid culpa neque est numquam, iste odit. Voluptate sit cum minima deleniti sapiente debitis labore minus alias facere?</p>
       </div>
     </Container>
   );

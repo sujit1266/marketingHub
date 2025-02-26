@@ -14,16 +14,16 @@ export const Hero = () => {
           rel="noopener"
           className="px-8 py-4 text-lg font-medium text-white bg-buttonColor hover:bg-buttonColorHover rounded-md transition duration-300"
         >
-          Download for Free
+          Get a Free Quote
         </a>
-        <a
+        {/* <a
           href="https://github.com/web3templates/nextly-template/"
           target="_blank"
           rel="noopener"
           className="flex items-center space-x-2 px-12 py-4 text-lg font-medium text-gray-300 bg-gray-800 hover:bg-gray-900 rounded-md transition duration-300"
         >
           <span> Contact Us</span>
-        </a>
+        </a> */}
       </div>
       <div className="w-full h-screen relative flex items-center justify-center overflow-hidden mt-42">
         {/* Background Video */}

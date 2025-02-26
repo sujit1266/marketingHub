@@ -31,7 +31,9 @@ const industries2 = ["Home Services (Plumbing, Electri,cians, Cleaning, etc.)",
 
 export default function TagScroll() {
      return (
-          <>
+          <>   
+               <h3 className="text-4xl font-bold text-center text-[#ffa550] mb-14">Where We Serve</h3>
+               {/* <h3 className="text-4xl font-bold text-center text-[#000] mb-10">Where <span className="text-[#ffa550]">W</span>e Se<span className="text-[#ffa550]">rve</span></h3> */}
                <Marquee pauseOnHover direction="right" className="border-y-2 border-solid py-10">
                     {
                          industries1.map((item,index) => <div className="ml-14 text-4xl font-bold font-[system-ui]" key={index}>{item}</div>)

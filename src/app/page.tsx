@@ -5,7 +5,7 @@ import { Benefits } from "@/components/Benefits";
 import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
-import { Cta } from "@/components/Cta";
+// import { Cta } from "@/components/Cta";
 import TagScroll from "../components/TagscrollingSection";
 import Aboutus from "@/components/Aboutus";
  
@@ -47,19 +47,17 @@ export default function Home() {
         preTitle="Testimonials"
         title="Here's what our customers said"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        "We believe the best way to showcase our success is through the words of those who matter most—our clients. Hear directly from them how we've helped elevate their brands and achieve their goals."
       </SectionTitle>
 
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      Our Frequently Asked Questions (FAQ) section provides quick answers to common inquiries about our marketing services, processes, pricing.
       </SectionTitle>
 
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
     </Container>
   );
 }

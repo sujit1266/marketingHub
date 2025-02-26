@@ -12,37 +12,42 @@ export const Testimonials = () => {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+            <p className="text-xl leading-normal ">
+              <span className="font-bold">"A True Partner in Growth!"</span>
+              <br></br>
+              "Game-changer for our business! Our online presence has never been stronger thanks to their expert strategies."
             </p>
 
             <Avatar
               image={userOneImg}
               name="Sarah Steiner"
-              title="VP Sales at Google"
+              title="VP Sales at BrandPulse"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+            <p className="text-xl leading-normal ">
+              <span className="font-bold">"Exceeded Our Expectations!"
+              </span>
+              <br></br>
+              "The team at MarketingHub helped us double our leads in just three months. Highly recommended!"
             </p>
 
             <Avatar
               image={userTwoImg}
               name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              title="Lead marketer at InnoVibe"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+            <p className="text-xl leading-normal ">
+              <span className="font-bold">"Professional, Creative, and Effective!"
+              </span>
+              <br></br>
+              "A fantastic agency! Their tailored approach gave us the boost we needed to stand out in a crowded market."
             </p>
 
             <Avatar
