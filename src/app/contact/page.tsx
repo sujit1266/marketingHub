@@ -49,7 +49,6 @@ const ContactUs = () => {
             <textarea
               placeholder="Your Message"
               className="w-full p-3 rounded-md bg-buttonColor   border-2 border-buttonColor focus:outline-none focus:ring-2 focus:ring-yellow-400 text-white placeholder:text-slate-200"
-              rows="4"
             ></textarea>
             <button className="gradient-btn px-20 w-full bg-black py-4 text-white rounded-3xl">Send Message</button>
           </form>
@@ -59,10 +58,7 @@ const ContactUs = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.5264029103!2d76.76356756251504!3d28.64368460987646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1740240662476!5m2!1sen!2sin"
             width="600"
             height="450"
-            // style="border:0;"
-            allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
             className="mt-12 bg-buttonColor h-64 rounded-xl flex items-center justify-center shadow-lg w-full"
           ></iframe>
         </div>
