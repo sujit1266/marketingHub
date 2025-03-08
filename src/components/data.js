@@ -11,8 +11,8 @@ import benefitOneImg from "../../public/img/aboutus-bg-remove-img.png";
 // import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  // title1: "Welcome to",
-  // title2: "<span>m</span>arket<span>i</span>an<span>hub</span>",
+  title1: "",
+  title2: "",
   desc: "At marketianhub, we believe in delivering more than just marketing services. We craft stories, build connections, and create experiences that help your brand stand out in a competitive market. As a premier digital marketing agency in Kolkata, our team comprises experienced strategists, creative designers, data-driven analysts, and forward-thinking developers who work in synergy to deliver results that matter.",
   desc2: "Whether you're a local business looking to expand your reach or a global enterprise aiming to strengthen your digital footprint, our comprehensive solutions are tailored to meet your unique needs.",
   image: benefitOneImg,
