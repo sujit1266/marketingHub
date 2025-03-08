@@ -1,6 +1,7 @@
 // components/ReachUsForm.tsx
 import React, { useState } from 'react';
 import { FormData, FormErrors } from './types';
+import { PrimeReactProvider } from 'primereact/api';
 
 const ReachUsForm: React.FC = () => {
   // State for form fields
@@ -8,6 +9,9 @@ const ReachUsForm: React.FC = () => {
     name: '',
     email: '',
     message: '',
+    number: '',
+    companyName: '',
+    service: '',
   });
 
   // State for validation errors
@@ -29,17 +33,29 @@ const ReachUsForm: React.FC = () => {
     const newErrors: FormErrors = {};
 
     if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
+      newErrors.name = '*Name is required';
     }
 
     if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
+      newErrors.email = '*Email is required';
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(formData.email)) {
       newErrors.email = 'Invalid email address';
     }
 
     if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
+      newErrors.message = '*Message is required';
+    }
+
+    if (!formData.number.trim()) {
+      newErrors.number = '*Number is required';
+    }
+
+    if (!formData.companyName.trim()) {
+      newErrors.companyName = '*Company Name is required';
+    }
+
+    if (!formData.service.trim()) {
+      newErrors.service = '*Service is required';
     }
 
     setErrors(newErrors);
@@ -59,62 +75,100 @@ const ReachUsForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-[max-content] mx-auto mt-10">
-     <h3 className="text-3xl font-bold text-center text-[#000] mb-6">Reach Us</h3>
+    <PrimeReactProvider>
+    <form onSubmit={handleSubmit} className="w-[max-content] mx-auto p-10">
+     <h3 className="text-2xl font-bold text-center text-[#000]">Contact Us</h3>
+     {/* <p className="text-md w-[30rem] font-bold text-center text-[#000]">We’re here to turn your ideas into reality. Connect with us today and take the first step towards success!</p> */}
       <div className="mb-4">
-        <label htmlFor="name" className="block text-md font-medium text-gray-500">
+        {/* <label htmlFor="name" className="block text-md font-medium text-gray-500">
           Name
-        </label>
+        </label> */}
         <input
           type="text"
           id="name"
           name="name"
           value={formData.name}
           onChange={handleInputChange}
-          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+          placeholder='Name'
+          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-[transparent] rounded-2xl text-[#000]"
         />
-        {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
+        {errors.name && <p className="text-[#000] text-sm mt-1">{errors.name}</p>}
       </div>
 
       <div className="mb-4">
-        <label htmlFor="email" className="block text-md font-medium text-gray-500">
+        {/* <label htmlFor="email" className="block text-md font-medium text-gray-500">
           Email
-        </label>
+        </label> */}
         <input
           type="email"
           id="email"
           name="email"
           value={formData.email}
           onChange={handleInputChange}
-          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+          placeholder='Email'
+          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-[transparent] rounded-2xl text-[#000]"
         />
-        {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+        {errors.email && <p className="text-[#000] text-sm mt-1">{errors.email}</p>}
       </div>
 
       <div className="mb-4">
-        <label htmlFor="message" className="block text-md font-medium text-gray-500">
-          Message
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
+        {/* <label htmlFor="email" className="block text-md font-medium text-gray-500">
+          Email
+        </label> */}
+        <input
+          type="text"
+          id="number"
+          name="number"
+          value={formData.number}
           onChange={handleInputChange}
-          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-          rows={4}
+          placeholder='Phone Number'
+          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-[transparent] rounded-2xl text-[#000]"
         />
-        {errors.message && <p className="text-red-500 text-md mt-1">{errors.message}</p>}
+        {errors.number && <p className="text-[#000] text-sm mt-1">{errors.number}</p>}
+      </div>
+
+      <div className="mb-4">
+        {/* <label htmlFor="email" className="block text-md font-medium text-gray-500">
+          Email
+        </label> */}
+        <input
+          type="text"
+          id="companyName"
+          name="companyName"
+          value={formData.companyName}
+          onChange={handleInputChange}
+          placeholder='Company Name'
+          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-[transparent] rounded-2xl text-white"
+        />
+        {errors.companyName && <p className="text-white text-sm mt-1">{errors.companyName}</p>}
+      </div>
+
+      <div className="mb-4">
+        {/* <label htmlFor="email" className="block text-md font-medium text-gray-500">
+          Email
+        </label> */}
+        <input
+          type="text"
+          id="service"
+          name="service"
+          value={formData.service}
+          onChange={handleInputChange}
+          placeholder='Service You Want'
+          className="mt-1 block w-full pr-[15rem] py-4 border border-gray-300 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-[transparent] rounded-2xl text-white"
+        />
+        {errors.service && <p className="text-white text-sm mt-1">{errors.service}</p>}
       </div>
 
       <div className="mb-4">
         <button
           type="submit"
-          className="w-full px-4 py-2 bg-buttonColor text-white rounded-md hover:bg-buttonColor focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="w-full px-4 py-2 bg-[#000] text-[#fff] rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 font-bold hover:bg-buttonColor"
         >
           Submit
         </button>
       </div>
     </form>
+    </PrimeReactProvider>
   );
 };
 

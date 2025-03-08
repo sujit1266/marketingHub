@@ -27,7 +27,7 @@ export default function Home() {
       </SectionTitle> */}
       {/* <Aboutus/> */}
 
-      <Benefits data={benefitOne} />
+      <Benefits data={benefitOne}/>
       {/* <Benefits imgPos="right" data={benefitTwo} /> */}
       <TagScroll key={1}/>
       <Services  />

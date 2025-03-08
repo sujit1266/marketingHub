@@ -6,8 +6,8 @@ import React from "react";
       
  const BlogListsComponent = () => {
   return (
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+    <div>
+      <div className="w-full mx-auto text-center mb-6 lg:mb-0 pt-[150px] pb-[150px] bg-gradient-to-t from-[#fab781] to-[#ffffff]">
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
           Our Blogs
         </h2>
@@ -16,7 +16,7 @@ import React from "react";
           aspernatur cumque dolor enim iste?
         </p>
       </div>
-
+    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <Link
           className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10"
@@ -224,6 +224,7 @@ import React from "react";
           </p>
         </Link>
       </div>
+    </div>
     </div>
   );
 };

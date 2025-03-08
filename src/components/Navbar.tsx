@@ -9,7 +9,7 @@ export const Navbar = () => {
   const navigation = [
     { label: "Home", to: "/" },
     { label: "About", to: "/about" },
-    { label: "Services", to: "/service" },
+    { label: "Services", to: "/services" },
     { label: "Blog", to: "/blog" },
   ];
 

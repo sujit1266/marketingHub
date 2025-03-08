@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Container } from "@/components/Container";
 import ReachUsForm from "./ReachUsForm";
+import "../../css/style.css";
 
 interface VideoProps {
   videoId: string;
@@ -52,11 +53,14 @@ export function Video({ videoId }: Readonly<VideoProps>) {
         >
           <source src="/final-video2.mp4" type="video/mp4" />
         </video>
-        <div className="absolute top-0 right-24 bg-[linear-gradient(#a3438a,#ff263a)]">
+        <div className="form-wrapper absolute top-[10px] right-24 rounded-3xl">
 
           <ReachUsForm />
         </div>
-        <p className='absolute top-10 left-10 text-[#ffa550] w-[55%] text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis recusandae assumenda! Natus expedita quidem inventore sequi sapiente. Praesentium corrupti laboriosam eligendi facilis aspernatur nostrum, a cumque ad saepe quis. Aperiam autem, totam minus eligendi, porro officiis repellat quis ea quae hic reprehenderit obcaecati quibusdam necessitatibus atque debitis eius sapiente fuga eveniet quidem cupiditate laborum beatae molestias dolorum quas? Dolorum, laudantium nemo quos illo accusamus exercitationem animi saepe reprehenderit odio, nostrum ea. Iure error necessitatibus labore quia, dignissimos quam, ratione vel illum aliquid culpa neque est numquam, iste odit. Voluptate sit cum minima deleniti sapiente debitis labore minus alias facere?</p>
+        <div className="absolute top-10 left-10 text-[#ffa550] w-[55%] text-center">
+        <h3 className="text-4xl">Ready to Stand Out?</h3>
+        <p className="text-2xl">We’re here to turn your ideas into reality. Connect with us today and take the first step towards success!</p>
+        </div>
       </div>
     </Container>
   );

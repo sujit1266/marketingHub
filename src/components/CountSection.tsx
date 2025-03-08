@@ -7,7 +7,7 @@ const CountSection = () => {
   return (
     <div className="">
       <div className="bg-gradient-to-r from-[#c77838] to-[#924709] w-full">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8  lg:py-20">
+        <div className="max-w-[100rem] mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8  lg:py-20">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="pb-1 text-4xl font-extrabold text-white">
               Lorem ipsum dolor sit amet

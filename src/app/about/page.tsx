@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <div className="pt-20">
       <section className="py-14 lg:py-24 relative z-0 bg-gradient-to-t from-[#fab781] to-[#ffffff] ">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
+        <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-4 relative text-center">
           <h1 className="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
             Lorem ipsum dolor sit amet.
             <span className="text-[#c77838]"> Professional Growth. ⁤</span>
@@ -17,7 +17,7 @@ function AboutUs() {
       </section>
 
       <section className="py-14 lg:py-24 relative">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
+        <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 relative ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div className="img-box">
               <img
@@ -26,13 +26,23 @@ function AboutUs() {
                 className="max-lg:mx-auto rounded-lg"
               />
             </div>
-            <div className="lg:pl-[100px] flex items-center">
+            <div className="lg:pl-[0px] flex items-start mt-20">
               <div className="data w-full">
                 <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                   About Us{" "}
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  at veritatis totam quia sit ea impedit eos vitae iure non
+                  fugit similique sint ipsum, cupiditate pariatur cumque
+                  blanditiis ab quos a incidunt rem, sunt veniam id? Dolorem,
+                  nemo quia unde iste veritatis ad aliquam quasi ipsa hic
+                  inventore beatae quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  at veritatis totam quia sit ea impedit eos vitae iure non
+                  fugit similique sint ipsum, cupiditate pariatur cumque
+                  blanditiis ab quos a incidunt rem, sunt veniam id? Dolorem,
+                  nemo quia unde iste veritatis ad aliquam quasi ipsa hic
+                  inventore beatae quisquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
                   at veritatis totam quia sit ea impedit eos vitae iure non
                   fugit similique sint ipsum, cupiditate pariatur cumque
                   blanditiis ab quos a incidunt rem, sunt veniam id? Dolorem,
@@ -46,7 +56,7 @@ function AboutUs() {
       </section>
 
       <section className="py-14 lg:py-24 relative">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
+        <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 relative ">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
             <div className="lg:pr-24 flex items-center">
               <div className="data w-full">
@@ -135,7 +145,7 @@ function AboutUs() {
       </div>
 
       <div className=" py-14 lg:py-24 bg-gradient-to-t from-gray-200 to-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+        <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 relative">
           <div className="mb-16 rounded-full">
             <h2 className="text-4xl font-manrope font-bold text-gray-900 text-center">
               What our happy user says!
@@ -176,8 +186,8 @@ function AboutUs() {
       </div>
 
       <section className="py-20 ">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="bg-gray-300 rounded-2xl p-8 xl:p-11">
+        <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
+          <div className="bg-gray-300 rounded-2xl p-8 xl:p-20">
             <h2 className="font-manrope text-4xl text-black text-center font-bold mb-4">
               Subscribe to the latest offer
             </h2>

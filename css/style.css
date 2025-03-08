@@ -1,0 +1,18 @@
+.form-wrapper {
+     /* background: linear-gradient(95deg, #9b4591 0%, #ff263a 38%); */
+     background-color: #fff;
+}
+
+.form-wrapper form input::placeholder{
+     color: #000;
+}
+
+.form-wrapper form textarea::placeholder{
+     color: #000;
+}
+
+.form-wrapper form input,.form-wrapper form textarea{
+     padding-left: 15px;
+     border: 1.5px solid #000;
+     margin-top: 40px;
+}
