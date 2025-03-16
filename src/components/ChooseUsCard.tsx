@@ -7,7 +7,7 @@ interface ChooseUsCardProps {
   title?: string;
   align?: "left" | "center";
   children?: React.ReactNode;
-  image?: StaticImageData;
+  image?: string | StaticImageData;
   text?: string;
 }
 
