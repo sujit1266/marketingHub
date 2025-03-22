@@ -1,7 +1,7 @@
 "use client"
 import Blog1 from "@/components/Blog single page/Blog1";
 import Blog2 from "@/components/Blog single page/Blog2";
-import Blog3 from "@/components/Blog single page/blog3";
+import Blog3 from "@/components/Blog single page/Blog3";
 import Blog4 from "@/components/Blog single page/Blog4";
 import Blog5 from "@/components/Blog single page/Blog5";
 import Blog6 from "@/components/Blog single page/Blog6";
