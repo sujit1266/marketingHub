@@ -5,7 +5,7 @@ import ContentMark from "@/components/services single page/ContentMark";
 import EmailMark from "@/components/services single page/EmailMark";
 import GraphicDesign from "@/components/services single page/GraphicDesign";
 import Ppc from "@/components/services single page/Ppc";
-import Seo from "@/components/services single page/seo";
+import Seo from "@/components/services single page/Seo";
 import Smm from "@/components/services single page/Smm";
 import WebDev from "@/components/services single page/WebDev";
 import { useParams } from "next/navigation";
