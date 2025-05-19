@@ -37,10 +37,11 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
-              modi quia, possimus dicta qui tenetur quo atque, sunt vitae
-              deleniti exercitationem eius illum distinctio molestiae ullam
-              laudantium, quis ducimus cupiditate?
+              Empowering Your Digital Growth From custom web and app development
+              to result-driven digital marketing strategies, we help businesses
+              transform ideas into impactful online experiences. Let's build
+              something great—together. Web Development | Site Deployment | CRM | SEO |
+              PPC | Social Media | Branding 
             </div>
           </div>
 
